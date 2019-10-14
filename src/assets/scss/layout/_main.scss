@@ -26,7 +26,7 @@
 			));
 			@include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
 			position: relative;
-			width: 40rem;
+			width: 45rem;
 			max-width: 100%;
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
@@ -86,6 +86,39 @@
 				}
 			}
 
+		}
+
+		.workicon {
+			text-align: center;
+			margin-bottom: 5px;
+		}
+
+		.botpad {
+			border-bottom: solid;
+			padding-bottom: 5px;
+			width: 100%;
+			text-align: center;
+		}
+
+		.flexDiv {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.workabout {
+			
+		}
+
+		.flexCol {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			border-radius: 4px;
+			border-style: solid;
+			border-width: 1px;
+			margin: 5px;
+			padding: 10px;
+			width: 33%;
 		}
 
 		@include breakpoint(small) {

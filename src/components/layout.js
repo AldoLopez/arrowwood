@@ -46,6 +46,7 @@ const Layout = ({ children, location }) => {
             ]}
           >
             <html lang="en" />
+            <script src="https://smtpjs.com/v3/smtp.js"/>
           </Helmet>
           {content}
         </>
