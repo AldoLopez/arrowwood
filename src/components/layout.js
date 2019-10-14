@@ -41,12 +41,13 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Custom Software Solutions' },
+              { name: 'keywords', content: 'software, websites, and more' },
             ]}
           >
             <html lang="en" />
             <script src="https://smtpjs.com/v3/smtp.js"/>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149942335-1" />
           </Helmet>
           {content}
         </>
